@@ -1,0 +1,1175 @@
+html{
+    box-sizing: border-box;
+}
+*,*::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+  font-family: 'Open Sans',sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: normal;
+  color: black;
+  background-color: white;
+}
+
+/** Nav bar start here
+ ================================================*/
+
+ .navbar{
+    display: flex;
+    width: 90%;
+    box-sizing: inherit;
+    height: 72px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 24px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    margin-top: 20px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.navbar-collapse{
+    background: white;
+    margin-top: 15px;
+    border-radius: 12px; 
+    z-index: 5;
+    box-shadow: 0 1px 24px 4px rgba(0,0,0,.08);
+}
+
+.navbar-brand{
+    display: flex;
+    margin-left: 84px;
+}
+
+.nav-item{
+    padding-left: 100px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar-toggler{
+    border: none !important;
+    color: white !important;
+    margin-right: 84px;
+    text-decoration: none;
+}
+
+.navbar-light{
+    border: none !important;
+    color: white !important;
+}
+
+.no-shadow {
+    box-shadow: none;
+}
+
+.navbar-nav{
+    display: flex;
+}
+
+.nav-link.active:hover{
+    color: #007E49 !important;
+}
+
+.nav-link.active{
+    text-align: center;
+}
+
+/** Nav bar end / Intro start here
+ ================================================*/
+ .intro{
+    display: flex;
+    width: 100%;
+    height: 335px;
+    margin-top: 150px;
+}
+
+.intro-container{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    justify-content: flex-start;
+    justify-content: space-between;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.intro-text-head{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 54px;
+    color: #000000;
+}
+
+.intro-text-under{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    color: #000000;
+    margin-top: 6px;
+}
+
+.go-catalog-btn{
+    width: 180px;
+    height: 48px;
+    background-color:  #009959;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    border: none;
+    color: white;
+    margin-top: 30px;
+    transition: .2s;
+}
+
+.go-catalog-btn:hover{
+    background-color: #007E49;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+    transform: translate(0,-2px);
+}
+
+.green-bike-intro{
+    display: flex;
+    width: 534px;
+    height: 335px;
+    margin-left: 545px;
+    margin-top: -410px;
+}
+
+/** Intro end/ Cotalog menu start here
+ ================================================*/
+
+.container-catalog-title{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+
+.catalog-title{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #000000;
+}
+
+.catalog-container{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.catalog-cards{
+    display: flex;
+    width: 80%;
+    height: 30px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    margin-top: 50px;
+}
+
+/** Catalog n1 start here
+ ====================*/
+
+ .catalog-n1{
+    width: 305px;
+    height: 303px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+.catalog-1-name{
+    width: 187px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    
+}
+
+.catalog-bike-1{
+    display: flex;
+    width: 48px;
+    height: 48px;
+    margin-top: 30px;
+}
+
+.first-catalog-text{
+    padding-left: 4px; 
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    color: #000000;
+    padding-top: 39px;
+}
+
+.catalog-link-1{
+    margin-top: 120px;
+    margin-left: -200px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.catalog-link-2{
+    margin-top: 160px;
+    margin-left: -60px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.catalog-link-3{
+    margin-top: 200px;
+    margin-left: -85px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.catalog-link-more{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #40B382;
+    text-decoration: none;
+    margin-top: 270px;
+    margin-left: -65px;
+}
+
+.catalog-link-1:hover{
+    color: #40B382;
+}
+.catalog-link-2:hover{
+    color: #40B382;
+}
+.catalog-link-3:hover{
+    color: #40B382;
+}
+
+.catalog-link-more:hover{
+    color: #007E49;
+}
+
+/** Catalog n1 end / Catalog 2 start here
+ ====================*/
+
+.catalog-n2{
+    width: 305px;
+    height: 303px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+.catalog2-link-1{
+    margin-top: 120px;
+    margin-left: -190px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.catalog2-link-2{
+    margin-top: 160px;
+    margin-left: -50px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.catalog2-link-3{
+    margin-top: 200px;
+    margin-left: -60px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.catalog2-link-more{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #40B382;
+    text-decoration: none;
+    margin-top: 270px;
+    margin-left: -10px;
+}
+
+.catalog2-link-1:hover{
+    color: #40B382;
+}
+.catalog2-link-2:hover{
+    color: #40B382;
+}
+.catalog2-link-3:hover{
+    color: #40B382;
+}
+
+.catalog2-link-more:hover{
+    color: #007E49;
+}
+
+/** Catalog n2 end / Catalog 3 start here
+ ====================*/
+
+ .catalog-n3{
+    width: 305px;
+    height: 303px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+.catalog3-link-1{
+    margin-top: 120px;
+    margin-left: -165px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.catalog3-link-2{
+    margin-top: 160px;
+    margin-left: -42px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.catalog3-link-3{
+    margin-top: 200px;
+    margin-left: -62px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.catalog3-link-more{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #40B382;
+    text-decoration: none;
+    margin-top: 270px;
+    margin-left: 10px;
+}
+
+.catalog3-link-1:hover{
+    color: #40B382;
+}
+.catalog3-link-2:hover{
+    color: #40B382;
+}
+.catalog3-link-3:hover{
+    color: #40B382;
+}
+
+.catalog3-link-more:hover{
+    color: #007E49;
+}
+
+/** Catalog menu end/ Bestseller start here
+ ================================================*/
+
+.container-bestseller-title{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    justify-content: space-between!important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 50px;
+}
+
+.bestseller-title{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #000000;
+}
+
+.bestseller-container{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bestseller-cards{
+    display: flex;
+    width: 80%;
+    height: 30px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    margin-top: 50px;
+}
+
+/** Card besteller 1 statr here
+ ====================*/
+
+.bestseller-n1{
+    width: 305px;
+    height: 407px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+.bestseller-bike-1{
+    display: flex;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-top: 20px;
+}
+
+.bike-name-1{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    padding-left: 45px;
+    padding-top: 30px;
+}
+
+.availability-1{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #40B382;
+    padding-left: 45px;
+    padding-top: -8px;
+}
+
+.price-1{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    padding-left: 45px;
+    padding-top: 5px;
+}
+
+.more-buy-btn-1{
+    width: 180px;
+    height: 48px;
+    background: #009959;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    margin-left: 65px;
+    margin-top: 20px;
+    transition: .2s;
+}
+
+.more-buy-btn-1:hover{
+    background-color: #007E49;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+    transform: translate(0,-2px);
+}
+
+/** Card besteller 1 end/ Card besteller 2 start here
+ ====================*/
+
+ .bestseller-n2{
+    width: 305px;
+    height: 407px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+.availability-2{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;  
+    color: #FF0000;
+    padding-left: 45px;
+    padding-top: -8px;
+}
+
+/** Card besteller 2 end/ Card besteller 3 start here
+ ====================*/
+
+.bestseller-n3{
+    width: 305px;
+    height: 407px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+.availability-3{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;  
+    color: blue;
+    padding-left: 45px;
+    padding-top: -8px;
+}
+
+/** Card besteller 3 end / Carusel with img start
+ ====================*/
+
+.container-carusel-title{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    justify-content: space-between!important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 120px;
+}
+
+.carusel-title{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #000000;
+}
+
+.carusel-container{
+    display: flex;
+    width: 80%;
+    height: 600px;
+    flex-direction: column;
+    justify-content: space-between!important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 50px;
+}
+
+.carousel{
+    display: flex;
+    height: 500px;
+}
+
+.carusel-title{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #000000;
+}
+
+.carousel-item{
+    padding-top: 30px;
+}
+
+.carousel-control-prev-icon{
+    margin-top: 30px;
+    margin-left: -115px;
+}
+
+.carousel-control-next-icon{
+    margin-top: 30px;
+    margin-right: -115px;
+}
+
+/** Carusel with img end / Rev-slider start here
+ ====================*/
+
+ .container-rev-tetle{
+    display: flex;
+    width: 80%;
+    height: 270px;
+    flex-direction: column;
+    justify-content: space-between!important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 45px;
+}
+
+.rev-title{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #000000;
+}
+
+.rev_slider{
+    display: flex;
+    width: 80%;
+    height: 270px;
+    flex-direction: column;
+    justify-content: space-between!important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: -240px;
+}
+
+.rev-title{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #000000;
+}
+
+.slede-1{
+    margin-top: 50px;
+}
+
+.avatar{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.user-name{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    padding-top: 12px;
+}
+
+.user-rev{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+}
+
+/**  Rev-sleder end / Footer start
+ ====================*/
+
+.footer{
+    margin-top: 150px;
+    width: 100%;
+    height: 103px;
+    background: #000000;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.footer-contact{
+    padding-top: 27px;
+    text-align: center;
+}
+
+/**  Footer end / MEDIA START UNTIL THE END OF THIS CSS
+ ====================*/
+ @media (min-width: 991px) {
+    .collapse.navbar-collapse {
+        box-shadow: none;
+        }
+}
+
+
+/** 2048*/
+@media (max-width: 2048px) {
+    .intro-container{
+        width: 65%;
+    }
+    .green-bike-intro{
+        margin-left: 790px;
+    }
+}
+
+@media (max-width: 2048px) {
+    .catalog-cards{
+        width: 65%;
+    }
+    .container-catalog-title{
+        width: 65%;
+    }
+}
+
+@media (max-width: 2048px) {
+    .bestseller-cards{
+        width: 65%;
+    }
+    .container-bestseller-title{
+        width: 65%;
+    }
+}
+
+@media (max-width: 2048px) {
+    .carusel-container{
+        width: 65%;
+    }
+    .container-carusel-title{
+        width: 65%;
+    }
+}
+
+@media (max-width: 2048px) {
+    .rev_slider{
+        width: 65%;
+    }
+    .container-rev-tetle{
+        width: 65%;
+    }
+}
+/** 2048*/
+
+/** 1920*/
+@media (max-width: 1920px) {
+    .intro-container{
+        width: 70%;
+    }
+    .green-bike-intro{
+        margin-left: 810px;
+    }
+}
+
+@media (max-width: 1920px) {
+    .catalog-cards{
+        width: 70%;
+    }
+    .container-catalog-title{
+        width: 70%;
+    }
+}
+
+@media (max-width: 1920px) {
+    .bestseller-cards{
+        width: 70%;
+    }
+    .container-bestseller-title{
+        width: 70%;
+    }
+}
+
+@media (max-width: 1920px) {
+    .carusel-container{
+        width: 70%;
+    }
+    .container-carusel-title{
+        width: 70%;
+    }
+}
+
+@media (max-width: 1920px) {
+    .rev_slider{
+        width: 70%;
+    }
+    .container-rev-tetle{
+        width: 70%;
+    }
+}
+/** 1920*/
+
+/** 1536*/
+@media (max-width: 1536px) {
+    .green-bike-intro{
+        margin-left: 540px;
+    }
+}
+/** 1536*/
+
+
+/** 1366*/
+@media (max-width: 1366px) {
+    .intro-container{
+        width: 80%;
+    }
+    .green-bike-intro{
+        margin-left: 550px;
+    }
+
+}
+
+@media (max-width: 1366px) {
+    .catalog-cards{
+        width: 80%;
+    }
+    .container-catalog-title{
+        width: 80%;
+    }
+}
+
+@media (max-width: 1366px) {
+    .bestseller-cards{
+        width: 80%;
+    }
+    .container-bestseller-title{
+        width: 80%;
+    }
+}
+
+@media (max-width: 1366px) {
+    .carusel-container{
+        width: 80%;
+    }
+    .container-carusel-title{
+        width: 80%;
+    }
+}
+
+@media (max-width: 1366px) {
+    .rev_slider{
+        width: 80%;
+    }
+    .container-rev-tetle{
+        width: 80%;
+    }
+}
+/** 1366*/
+
+/** 1280*/
+@media (max-width: 1280px) {
+    .intro-container{
+        width: 82%;
+    }
+    .green-bike-intro{
+        margin-left: 510px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .catalog-cards{
+        width: 82%;
+    }
+    .container-catalog-title{
+        width: 82%;
+    }
+}
+
+@media (max-width: 1280px) {
+    .bestseller-cards{
+        width: 82%;
+    }
+    .container-bestseller-title{
+        width: 82%;
+    }
+}
+
+@media (max-width: 1280px) {
+    .carusel-container{
+        width: 82%;
+    }
+    .container-carusel-title{
+        width: 82%;
+    }
+}
+
+@media (max-width: 1280px) {
+    .rev_slider{
+        width: 82%;
+    }
+    .container-rev-tetle{
+        width: 82%;
+    }
+}
+/** 1280*/
+
+/** 990*/
+@media (max-width: 990px) {
+    .intro-container{
+        width: 80%;
+        margin-top: -30px;
+    }
+
+    .green-bike-intro{
+        display: none;
+    }
+    
+    @media (max-width: 990px) {
+        .container-catalog-title{
+            margin-top: 150px;
+            text-align: center;
+        }
+
+        .nav-item{
+            padding-left: 0px !important;
+        }
+    
+        .catalog-cards{
+            display: flex;
+            height: 1100px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .catalog-n1{
+            margin-top: -20px;
+        }
+        .catalog-n2{
+            margin-top: 70px;
+        }
+        .catalog-n2{
+            margin-bottom: 70px;
+        }
+    
+        .bestseller-title{
+            margin-top: 700px;
+            text-align: center;
+        }
+    
+        .bestseller-cards{
+            display: flex;
+            height: 1500px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .bestseller-n1{
+            margin-top: -20px;
+        }
+        .bestseller-n2{
+            margin-top: 70px;
+        }
+        .bestseller-n2{
+            margin-bottom: 70px;
+        }
+    
+        .carousel-control-next-icon{
+            display: none;
+        }
+        .carousel-control-prev-icon{
+            display: none;
+        }
+    
+        .container-carusel-title{
+            margin-top: 1050px;
+            text-align: center;
+        }
+    
+        .container-rev-tetle{
+            margin-top: -80px;
+            text-align: center;
+        }
+    }
+
+}
+/** 990*/
+
+/** 810*/
+@media (max-width: 810px) {
+    .intro-container{
+        width: 80%;
+        margin-top: -30px;
+    }
+    .green-bike-intro{
+        display: none;
+    }
+}
+
+@media (max-width: 810px) {
+    .container-catalog-title{
+        margin-top: 150px;
+        text-align: center;
+    }
+
+    .catalog-cards{
+        display: flex;
+        height: 1100px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .catalog-n1{
+        margin-top: -20px;
+    }
+    .catalog-n2{
+        margin-top: 70px;
+    }
+    .catalog-n2{
+        margin-bottom: 70px;
+    }
+
+    .bestseller-title{
+        margin-top: 700px;
+        text-align: center;
+    }
+
+    .bestseller-cards{
+        display: flex;
+        height: 1500px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bestseller-n1{
+        margin-top: -20px;
+    }
+    .bestseller-n2{
+        margin-top: 70px;
+    }
+    .bestseller-n2{
+        margin-bottom: 70px;
+    }
+
+    .carousel-control-next-icon{
+        display: none;
+    }
+    .carousel-control-prev-icon{
+        display: none;
+    }
+
+    .container-carusel-title{
+        margin-top: 1050px;
+        text-align: center;
+    }
+
+    .container-rev-tetle{
+        margin-top: -180px;
+        text-align: center;
+    }
+}
+/** 810*/
+
+/** 770*/
+@media (max-width: 770px){
+    .carusel-container{
+        width: 100%;
+    }
+    .carousel-control-next-icon{
+        display: none;
+    }
+    .carousel-control-prev-icon{
+        display: none;
+    }
+
+    .container-rev-tetle{
+        margin-top: -150px;
+        text-align: center;
+    }
+
+    .navbar-brand{
+        margin-left: 30px;
+   }
+
+   .navbar-toggler{
+        margin-right: 30px;
+   }
+
+}
+/** 770*/
+
+/** 450*/
+@media (max-width: 450px){
+    .carusel-container{
+        width: 100%;
+    }
+}
+
+@media (max-width: 450px){
+    .carusel-container{
+        width: 100%;
+    }
+    .container-rev-tetle{
+        margin-top: -280px;
+        text-align: center;
+    }
+
+    .navbar-brand{
+        margin-left: 30px;
+   }
+
+   .navbar-toggler{
+        margin-right: 30px;
+   }
+
+   .intro-container{
+    margin-top: -100px;
+   }
+}
+/** 450*/
+
+/** 412*/
+@media (max-width: 412px){
+   .navbar-brand{
+        margin-left: 30px;
+   }
+
+   .navbar-toggler{
+        margin-right: 30px;
+   }
+
+   .intro-container{
+    margin-top: -100px;
+}
+}
+/** 412*/
+
