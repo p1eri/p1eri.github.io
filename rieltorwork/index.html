@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+<!--------- navbar --------->
+<nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Название</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Контакты
+            </a>
+            <ul class="dropdown-menu ms-auto" aria-labelledby="navbarDropdown">
+              <!-- здесь просто меняете в ручную, больше ничего не надо, оно само адаптируется-->
+              <li><a class="dropdown-item">+71231232323</a></li>
+              <li><a class="dropdown-item">+71231232323</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <!-- здесь просто меняете в ручную почту и убираете "href="#"" или вставляете как на комментарие на 61 строке-->
+              <li><a class="dropdown-item" href="#">example@gmail.com</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+</nav>
+
+<!--------- intro --------->
+<div class="intro mx-auto">
+  <div class="text-info">
+      <p class="main-text">
+        Привет, меня зовут Танзиля,<br>
+        я являюсь Частным Риэлтором
+      </p>
+      <p class="info-text-top">
+        <img class="ellips" src="img/subtractellips.png" alt="">Более 20 лет работы
+      </p>
+      <p class="info-text">
+        <img class="ellips" src="img/subtractellips.png" alt="">Более 500 успешных сделок купли-продажи
+      </p>
+      <p class="info-text-last">
+        <img class="ellips" src="img/subtractellips.png" alt="">Высшее образование
+      </p>
+      <!---в href вместо # вставить mailto:вашадрес@gmail.com  также можно и mail и тп-->
+      <a href='#'><button class='call-btn' type='button'>Связаться</button></a>
+  </div>
+</div>
+
+<!--------- info --------->
+<div class="wrapper">
+  <div class="info mx-auto">
+    <div class="text-info-2">
+      <p class="main-text-2">
+        Обо мне
+      </p>
+      <p class="info-text-2">
+        <img class="line" src="img/line1.svg" alt=""> Родилась и выросла в Оренбурге – люблю свой город и знаю его: «как пять пальцев» <br>
+        <img class="line" src="img/line1.svg" alt=""> За качество своей работы отвечаю лично. <br>
+        <img class="line" src="img/line1.svg" alt=""> Оплата только за результат. При заключении договора не беру никакой предоплаты. <br>
+        <img class="line" src="img/line1.svg" alt=""> Только профессиональная фотосъемка недвижимости. <br>
+        <img class="line" src="img/line1.svg" alt=""> Выдаю официальное письменное заключение по всем налоговым вопросам, связанным с продажей недвижимости. <br>
+        <img class="line" src="img/line1.svg" alt=""> Сбор всех документов для сделки по доверенности. Вам нужно только прийти на сделку и получить деньги. <br>
+        <img class="line" src="img/line1.svg" alt=""> Решение о цене недвижимости всегда за клиентом. Никогда не навязываю своего мнения. Моя задача предоставить реальную информацию и добросовестно делать свою работу. <br>
+      </p>
+    </div>
+  </div>
+  <div class="buttons me-auto">
+    <!---в href вместо # вставить ссылки на чат, про то как вставить почту выше (61 строка)-->
+    <a href='#!'><button class='mail-btn' type='button'>Написать на почту</button></a>
+    <a href='#!'><button class='viber-btn' type='button'>Viber</button></a>
+    <a href='#!'><button class='whatsapp-btn' type='button'>WhatsApp</button></a>
+  </div>
+</div>
+
+<!--------- footer --------->
+<div class="footer mx-auto">
+  <div class="text-foot">
+      <p class="contacts-text">
+        <!-- здесь просто меняете в ручную-->
+        example@gmail.com <br>
+        Viber: +71231231234 <br>
+        WhatsApp: +71231231234
+      </p>
+      <p class="copyright">
+        Copyright ©2022 All rights reserved 
+      </p>
+  </div>
+</div>
+
+</body>
+</html>
