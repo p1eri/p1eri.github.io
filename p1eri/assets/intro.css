@@ -137,6 +137,32 @@
     }
 }
 
+@media (max-width: 768px) {
+    .butts-wrapper{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .show-btn{
+        margin-left: 0;
+        margin-top: 24px;
+    }
+}
+
+@media (max-width: 420px) {
+    .butts-wrapper{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .show-btn{
+        margin-left: 0;
+        margin-top: 24px;
+    }
+}
+
 @media (max-width: 350px) {
     .butts-wrapper{
         display: flex;
